@@ -1,0 +1,38 @@
+body {
+  background: url(https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExejZ4eTd3OW92N2Rydm03MmNwcWphODlzOWcwcHUzOTl0ZDd0bHZmOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o7buijTqhjxjbEqjK/giphy.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#background-div {
+  size: cover;
+}
+
+#fake-video {
+  visibility: hidden;
+}
+
+#wrapper {
+  margin: 100px;
+}
+
+#timeP {
+  font-size: 100px;
+  margin: 0px;
+  padding: 0px;
+  color: white;
+}
+
+#dateP {
+  font-size: 100px;
+  margin: 0px;
+  padding: 0px;
+  color: white;
+}
